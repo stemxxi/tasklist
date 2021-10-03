@@ -528,6 +528,9 @@ img{
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+    .video{
+        width: 100%;
+    }
 
     .container{
         margin-left: var(--mb-1);
@@ -594,6 +597,9 @@ img{
 
 
 @media screen and (min-width: 568px) {
+    .video{
+        width: 100%;
+    }
 
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
@@ -621,6 +627,9 @@ img{
 }
 
 @media screen and (min-width: 768px) {
+    .video{
+        width: 100%;
+    }
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -808,6 +817,9 @@ img{
         padding: 0;
     }
     
+    .video{
+        width: 100%;
+    }
 
     .home__blob{
         width: 320px;

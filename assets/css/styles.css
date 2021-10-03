@@ -462,7 +462,8 @@ img{
 
 
 .video{
-    width: 100%;
+    max-width: 100%;
+    width: auto;
     
     
 }
@@ -470,7 +471,10 @@ img{
 
 
 
-
+video__play{
+    max-width: 100%;
+    width: auto;
+}
 
 
 

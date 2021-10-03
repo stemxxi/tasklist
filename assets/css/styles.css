@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 340; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 142; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -70,6 +70,11 @@
 }
 
 /*========== Variables Dark theme ==========*/
+
+
+body{
+    background-clip: ;
+}
 
 body.dark-theme{
     
@@ -452,22 +457,17 @@ img{
 
 
 
-.footer__copy{
-    font-size: var(--smaller-font-size);
-    text-align: center;
-    color: var(--text-color-light);
-    margin-top: var(--mb-3);
+
+
+
+
+
+
+.video{
+    width: 100%;
+    
+    
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
